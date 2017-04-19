@@ -1,0 +1,122 @@
+/**********
+ Normalize
+**********/
+* {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	color: rgb(6, 158, 39);
+	background-color: rgb(247, 247, 247);
+}
+
+/********
+ Top Nav
+********/
+#topNav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 2em;
+	z-index: 1000;
+}
+#topNav * {
+	height: 100%;
+}
+#topNav li  {
+	list-style: none;
+	margin: 0;
+}
+#topNav ul a {
+	color: black;
+}
+#topNav ul li {
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 0 0;
+}
+#topNav ul a:hover li {
+	background-color: black;
+	color: white;
+}
+#topNav hr {
+	height: 0em;
+	display: block;
+	color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: .5em;
+}
+
+/*********
+ Left Bar
+*********/
+#leftBar {
+	position: absolute;
+	top: 4em;
+	left: 0;
+	padding-left: .5em;
+	width: 25%;
+	max-width: 200px;
+}
+
+/**********
+ Right Bar
+**********/
+#rightBar {
+	position: absolute;
+	top: 4em;
+	right: 0;
+	padding-right: .5em;
+	width: 25%;
+	max-width: 200px;
+}
+
+/****
+ Bio
+****/
+#bio {
+	height: auto;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 1%;
+	border: 2px solid rgb(6, 158, 39);
+}
+#bio img {
+	width: 20%;
+	height: auto;
+	margin: 0 2.5%;
+}
+#bio #profile {
+	width: 90%;
+	height: auto;
+	border: 0 solid white;
+	border-radius: 50%;
+}
+
+/**********
+ Main Body
+**********/
+#mainBody {
+	position: absolute;
+	top: 4em;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	padding: 1em;
+	border: 2px solid black;
+}
+
+/*******
+ Footer
+*******/
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 2.5%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
